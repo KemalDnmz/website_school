@@ -1,0 +1,167 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+/* navbar1&navbar2 section */
+
+#navbar1Section {
+    background-color: #fff;
+    background-image: linear-gradient(#fff,rgba(211, 211, 211, 0.696));
+}
+
+#navbar1Section .icons-left i {
+    color:#3385ff;
+}
+
+#navbar1Section i,
+#navbar1Section a {
+    color: #444;
+}
+
+#navbar1Section ul li:last-child {
+    background-color:#ff0000;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#navbar1Section ul li a {
+    margin: 0 .3rem 0 .3rem;
+    transition: .5s;
+}
+
+
+#navbar1Section ul li a:hover {
+    color: #fff;
+}
+
+#navbar1Section ul li a i:hover {
+    color: #3385ff;
+}
+
+@media (max-width:768px) {
+    #upperNavbar {
+        display: grid !important;
+        gap: 10px;
+        justify-items: center;
+    
+
+    }
+    #navbar1Section .container{
+        display: grid;
+        justify-content: center;
+    }
+
+
+    #carousel .responsive{
+        display: none;
+    }
+
+
+}
+
+#navBarNav2 a {
+    color: #fff;
+}
+
+#navBarNav2 a:hover {
+    color:#3385ff;
+}
+
+/* section-a */
+
+
+#section-a h3 {
+    text-align: center;
+}
+#section-a h5{
+    color:#ff0000;
+}
+#section-a i{
+    color: #3385ff;
+}
+
+.card {
+    height: 100%;
+}
+
+
+
+i {
+    color:#3385ff;
+}
+
+/* section-b */
+
+#section-b a {
+    color: #3385ff;
+}
+
+#section-b a:hover {
+    color: gray;
+}
+
+/* section-c */
+
+
+#section-c i {
+    color: white;
+}
+
+#section-c img {
+    box-shadow: 5px 5px 5px grey;
+}
+
+/* footer */
+
+footer {
+    background: url(./img/blackboard-625219.jpeg) center  no-repeat ;
+    background-size: cover;
+
+
+}
+
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: orange;
+}
+
+.scroll {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+footer i {
+    color: #fff;
+}
+
+footer .btn {
+
+    background-color:#ff0000;
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+}
+
